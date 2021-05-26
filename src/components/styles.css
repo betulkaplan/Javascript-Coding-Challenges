@@ -1,0 +1,117 @@
+#header {
+  background-color: black;
+  margin-top: 1.875rem;
+  width: 25rem;
+  color: white;
+  margin: auto;
+  padding: 0.625rem;
+  text-align: center;
+}
+#stopwatch {
+  width: 25rem;
+  height: 5.625rem;
+  margin: auto;
+  margin-top: 4.375rem;
+  margin-bottom: 1.875rem;
+  color: red;
+  border: 0.0625rem solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icons {
+  width: 25rem;
+  height: 5.625rem;
+  margin-top: 1.875rem;
+  margin: auto;
+  border: 0.0625rem solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#icon1 {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 62.4375rem;
+  margin: auto;
+  border: 0.1875rem solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#icon2 {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 62.4375rem;
+  margin: auto;
+  border: 0.1875rem solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#icon1:active,
+#icon2:active {
+  transform: scale(0.95);
+}
+#play {
+  width: 1rem;
+  height: 1.25rem;
+  border-top: 0.5rem solid transparent;
+  border-left: 0.75rem solid whitesmoke;
+  border-bottom: 0.5rem solid transparent;
+  /* display: none; */
+}
+#pause {
+  width: 1rem;
+  height: 1.25rem;
+  border-right: 0.25rem solid whitesmoke;
+  border-left: 0.25rem solid whitesmoke;
+  display: none;
+}
+#stop {
+  width: 1rem;
+  height: 1.25rem;
+  background-color: black;
+}
+/* cc9 */
+
+.cc9 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cc9 form {
+  display: flex;
+  align-items: center;
+  background-color: rgb(159, 201, 159);
+  border: 5px solid red;
+}
+
+.cc9 form > * {
+  margin: 10px;
+  height: 30px;
+}
+
+.cc9 form .array {
+  width: 250px;
+}
+.cc9 form .kVal {
+  width: 50px;
+}
+.cc9 form button {
+  cursor: pointer;
+}
+
+.cc9 .result {
+  font-size: 50px;
+}
+
+.thelist {
+  font-size: 30px;
+  margin-left: 20px;
+}
