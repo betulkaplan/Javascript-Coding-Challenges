@@ -57,24 +57,25 @@
   transform: scale(0.95);
 }
 #play {
-  width: 1rem;
-  height: 1.25rem;
-  border-top: 0.5rem solid transparent;
-  border-left: 0.75rem solid whitesmoke;
-  border-bottom: 0.5rem solid transparent;
-  /* display: none; */
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
+
 #pause {
-  width: 1rem;
-  height: 1.25rem;
-  border-right: 0.25rem solid whitesmoke;
-  border-left: 0.25rem solid whitesmoke;
-  display: none;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 #stop {
-  width: 1rem;
-  height: 1.25rem;
-  background-color: black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* cc9 */
 

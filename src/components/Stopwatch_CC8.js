@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import { GrPlayFill, GrPauseFill } from 'react-icons/gr';
+import { FaPause, FaPlay, FaStop } from 'react-icons/fa';
 import './styles.css';
 
 function Stopwatch_CC8() {
@@ -45,8 +46,15 @@ function Stopwatch_CC8() {
             setCounting((counting) => !counting);
           }}
         >
-          <div id="play"></div>
-          <div id="pause"></div>
+          {!counting ? (
+            <div id="play">
+              <FaPlay />
+            </div>
+          ) : (
+            <div id="pause">
+              <FaPause />
+            </div>
+          )}
         </div>
         <div
           id="icon2"
@@ -55,7 +63,9 @@ function Stopwatch_CC8() {
             setTime([0, 0, 0]);
           }}
         >
-          <div id="stop"></div>
+          <div id="stop">
+            <FaStop />
+          </div>
         </div>
       </div>
     </div>
