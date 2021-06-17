@@ -3,6 +3,7 @@ import { FaHome, FaStopwatch, FaArrowsAltH, FaReact } from 'react-icons/fa';
 import CC9 from './components/CC9';
 import Stopwatch from './components/Stopwatch_CC8';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import MatchBrackets from './components/match_brackets';
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
               CC9 - Sliding Windows <FaArrowsAltH />
             </Link>
           </li>
+          <li>
+            <Link to="/match_brackets">
+              Match Brackets <FaArrowsAltH />
+            </Link>
+          </li>
         </ol>
         <Switch>
           <Route exact path="/">
@@ -36,6 +42,9 @@ function App() {
           </Route>
           <Route path="/cc8">
             <Stopwatch />
+          </Route>
+          <Route path="/match_brackets">
+            <MatchBrackets />
           </Route>
         </Switch>
 
